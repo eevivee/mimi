@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Player</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 12px;
+      font-family: Arial, sans-serif;
+      background: transparent;
+    }
+
+    .player {
+      max-width: 420px;
+      background: #f8f3ea;
+      border-radius: 18px;
+      padding: 14px 16px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+
+    .title {
+      font-size: 15px;
+      margin-bottom: 8px;
+    }
+
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="player">
+    <div class="title">FRENCH: ant</div>
+
+    <audio controls>
+      <source src="MIMI-French-Ant.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</body>
+</html>
